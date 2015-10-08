@@ -7,4 +7,10 @@ describe MoviesController do
       r.length.should == 5
     end
   end
+
+  # describe 'check MoviesHelper oddness' do
+  #   it 'should give me odd' do
+  #     expect(MoviesHelper.oddness(5)).to eq "odd"
+  #   end
+  # end
 end

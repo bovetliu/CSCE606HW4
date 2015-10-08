@@ -14,7 +14,7 @@ class AddMoreMovies < ActiveRecord::Migration
   def up
     MORE_MOVIES.each do |movie|
       # puts movie.title
-      Movie.delete_all("title = " + movie.title)
+      # Movie.delete_all("title = " + movie.title)
       Movie.create!(movie)
     end
   end

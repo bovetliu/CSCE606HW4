@@ -19,10 +19,13 @@ test: &test
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: d88sknubs6d583
   pool: 5
-  timeout: 5000
+  username: zmcternccaipdi
+  password: 1jDwLUxlmidy2GC42q6T-3t73c
+  host: ec2-54-197-241-24.compute-1.amazonaws.com
+  port: 5432 
 
 cucumber:
   <<: *test

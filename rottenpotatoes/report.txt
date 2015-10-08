@@ -1,0 +1,23 @@
+
+MoviesController
+  edit page for appropriate Movie
+    When I go to the edit page for the Movie, it should be loaded
+    update and save and redirect
+    When I follow "Find Movies With Same Director", I should be on the Similar Movies page for the Movie
+    should show Movie by id
+    should redirect to index if movie does not have a director
+    should be possible to create movie
+    should be possible to destroy movie
+    should redirect if sort order has been changed
+    should be possible to order by release date
+    should redirect if selected ratings are changed
+    should remove noDirector message from session
+    should call database to get movies
+
+MoviesController
+  edit page for appropriate Movie
+    has to return list of hardcoded ratings
+
+Finished in 0.16752 seconds
+13 examples, 0 failures
+Coverage report generated for RSpec to /home/boweiliu/study/courses/CSCE606 Software Eng/CSCE606HW4/rottenpotatoes/coverage. 56 / 57 LOC (98.25%) covered.
